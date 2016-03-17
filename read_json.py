@@ -30,6 +30,6 @@ def road_csv_cls(csv_path = 'res/iris.csv' , n_cls = 5 ,rand_state = 20):
 	df = pd.DataFrame(labels)
 	iris["cls"] = df
 	print iris
-	iris.to_csv('res/outout.csv', index=False)
+	iris.to_csv('res/output.csv', index=False)
 	
 road_csv_cls()
